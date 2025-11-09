@@ -1,44 +1,47 @@
 # Luker OTClient
 
 Public repository for the **Luker OTServer 15.03** client.  
-This client is required to connect to the Luker OTServer and will later be used by the official **Luker Launcher** for automatic updates.
+This repository contains the full playable client, automatic version tracking, and tools used to generate launcher updates and GitHub releases.
 
 ---
 
-## 📦 Installation
+## 📦 Installation (Players)
 
-1. Download the latest version from the [Releases](https://github.com/luker-development/luker-otclient/releases) page.
-2. Extract all files to a folder (for example: C:\Games\LukerOT).
-3. Run client.exe.
-4. In the login screen, make sure you’re connecting to:
-
-   Server: luker-otserver.ddns.net   (example)
+1. Download the latest release from the [Releases](https://github.com/luker-development/luker-otclient/releases) page.
+2. Extract all files to a folder (e.g. `C:\Games\LukerOT\`).
+3. Run `client.exe`.
+4. In the login screen, connect to:
+   ```
+   Server: luker-otserver.ddns.net
    Port: 7171
    Version: 15.03
-
----
-
-## 🔄 Updating
-
-The launcher (coming soon) will automatically check:
-- updater/version.txt → current client version
-- updater/manifest.json → file list and hashes
-- updater/patch_notes.txt → latest changelog
-
-If you’re updating manually, you can also run:
-
-git pull origin main
-
-to fetch the latest client files.
+   ```
 
 ---
 
 ## 🧠 Development Notes
 
-- The client uses data files from data/things/ and configuration modules from data/modules/.
-- Do **not** delete or rename these folders.
-- Launcher integration will use GitHub Releases as a CDN for versioned patches.
-- The .gitignore excludes only non-essential runtime data (like logs, minimap cache, and screenshots).
+- This repository is **public** for distribution purposes.
+- The **server** and its configuration remain private.
+- The included script `generate_manifest.py` automates versioning, manifest creation, and GitHub release publishing.
+
+---
+
+## 🔄 Update & Build Workflow (Developers)
+
+1. **Bump version and rebuild manifest:**
+   ```bash
+   python generate_manifest.py --bump
+   ```
+2. **Create a GitHub release automatically:**
+   ```bash
+   python generate_manifest.py --bump minor --release
+   ```
+3. The script will:
+   - Update `updater/version.txt`
+   - Rebuild `updater/manifest.json`
+   - Create a ZIP in `updater/builds/`
+   - Upload it to GitHub Releases
 
 ---
 
@@ -47,37 +50,34 @@ to fetch the latest client files.
 ```text
 luker-otclient/
   bin/
-    client.exe
-    BattlEye/
-    plugins/
-    qt.conf
-    resources/
   data/
-    things/
-    modules/
-    minimap/
-    configs/
+  assets/
+  conf/
+  storeimages/
   updater/
     version.txt
     manifest.json
     patch_notes.txt
+    builds/
+  generate_manifest.py
+  .gitattributes
   .gitignore
   README.md
 ```
 
 ---
 
-## 🧩 Future Launcher Integration
+## 🧩 Launcher Integration
 
-The official Luker Launcher will:
-1. Compare the local version.txt against the one on GitHub.
-2. Download only changed files (based on the manifest.json hashes).
-3. Display patch notes directly from patch_notes.txt.
-4. Automatically back up old files before patching.
+The future **Luker Launcher** will:
+1. Compare the local version against `updater/version.txt` on GitHub.
+2. Download the corresponding ZIP build from the latest GitHub Release.
+3. Extract and patch changed files automatically.
+4. Display patch notes from `updater/patch_notes.txt`.
 
 ---
 
 ## 📜 License
 
-This repository is intended for public client distribution.  
-All game assets remain property of the Luker OTServer project.
+This repository is intended for **client distribution and launcher integration**.  
+All assets and content remain property of the **Luker OTServer** project.
