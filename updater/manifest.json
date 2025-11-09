@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "bin/client.exe",
+      "hash": "PLACEHOLDER_HASH"
+    },
+    {
+      "path": "bin/Qt6WebEngineCore.dll",
+      "hash": "PLACEHOLDER_HASH"
+    },
+    {
+      "path": "assets.json",
+      "hash": "PLACEHOLDER_HASH"
+    }
+  ]
+}

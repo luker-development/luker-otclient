@@ -1,0 +1,5 @@
+Luker OTClient - Patch 1.0.0
+-----------------------------
+• Initial client release
+• Git LFS integration for large binaries
+• Launcher-ready structure with version tracking
