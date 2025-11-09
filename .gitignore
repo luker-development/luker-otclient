@@ -1,18 +1,38 @@
-# Ignore binaries and user configs
-*.exe
-*.dll
+# IDE and build artifacts
+.idea/
+.vscode/
+*.iml
+*.pdb
+*.obj
 *.log
 *.zip
 *.rar
 *.7z
-*.bak
 *.tmp
+*.bak
 
-# Ignore cache and personal configs
+# Windows / OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Game-generated data (safe to ignore)
 data/minimap/
+data/config/
 data/configs/
+data/logs/
+data/screenshots/
 
-# Ignore generated files
-*.o
-*.so
-*.pdb
+# Runtime cache and logs
+cache/
+log/
+crashdump/
+screenshots/
+minimap/
+characterdata/
+
+# User-specific files
+*.cfg
+*.ini
+*.dat.old
+*.spr.old
