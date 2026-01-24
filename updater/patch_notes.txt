@@ -1,5 +1,4 @@
-Luker OTClient - Patch 1.0.0
+Luker OTClient - Patch 1.0.1
 -----------------------------
-• Initial client release
-• Git LFS integration for large binaries
-• Launcher-ready structure with version tracking
+- Pointed login/client web services to http://216.238.98.55/login.php
+- Updated manifest hashes and version file for launcher compatibility

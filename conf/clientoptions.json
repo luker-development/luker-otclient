@@ -10,13 +10,13 @@
     },
     "clientOptionsVersion": 9,
     "clientWindowOptions": {
-        "clientWindowHeight": 1408,
+        "clientWindowHeight": 1314,
         "clientWindowIsBorderless": false,
-        "clientWindowIsMaximized": true,
-        "clientWindowPositionX": 1,
+        "clientWindowIsMaximized": false,
+        "clientWindowPositionX": 599,
         "clientWindowPositionY": 31,
         "clientWindowScreenName": "Odyssey G85SB",
-        "clientWindowWidth": 1048
+        "clientWindowWidth": 2010
     },
     "controlButtonsOptions": {
         "disabledButtons": [
@@ -1099,19 +1099,19 @@
                         },
                         {
                             "actionBar": 9,
-                            "actionButton": 29,
-                            "actionsetting": {
-                                "useObject": 16277,
-                                "useType": "Use"
-                            }
-                        },
-                        {
-                            "actionBar": 9,
                             "actionButton": 5,
                             "actionsetting": {
                                 "useEquipSmartMode": false,
                                 "useObject": 45639,
                                 "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 9,
+                            "actionButton": 29,
+                            "actionsetting": {
+                                "useObject": 16277,
+                                "useType": "Use"
                             }
                         },
                         {
@@ -1208,14 +1208,6 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 10,
-                            "actionsetting": {
-                                "chatText": "exani hur \"up\"",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
                             "actionButton": 2,
                             "actionsetting": {
                                 "useObject": 23373,
@@ -1224,9 +1216,9 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 11,
+                            "actionButton": 10,
                             "actionsetting": {
-                                "chatText": "exani hur \"down\"",
+                                "chatText": "exani hur \"up\"",
                                 "sendAutomatically": true
                             }
                         },
@@ -1235,6 +1227,14 @@
                             "actionButton": 19,
                             "actionsetting": {
                                 "chatText": "exori amp pug",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 11,
+                            "actionsetting": {
+                                "chatText": "exani hur \"down\"",
                                 "sendAutomatically": true
                             }
                         },
@@ -1432,9 +1432,9 @@
                         },
                         {
                             "actionBar": 2,
-                            "actionButton": 50,
+                            "actionButton": 2,
                             "actionsetting": {
-                                "chatText": "utori vis",
+                                "chatText": "exura max vita",
                                 "sendAutomatically": true
                             }
                         },
@@ -1448,17 +1448,9 @@
                         },
                         {
                             "actionBar": 2,
-                            "actionButton": 2,
+                            "actionButton": 50,
                             "actionsetting": {
-                                "chatText": "exura max vita",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 2,
-                            "actionButton": 45,
-                            "actionsetting": {
-                                "chatText": "exori vis",
+                                "chatText": "utori vis",
                                 "sendAutomatically": true
                             }
                         },
@@ -1467,6 +1459,14 @@
                             "actionButton": 13,
                             "actionsetting": {
                                 "chatText": "utori mas sio",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 2,
+                            "actionButton": 45,
+                            "actionsetting": {
+                                "chatText": "exori vis",
                                 "sendAutomatically": true
                             }
                         },
@@ -1543,20 +1543,20 @@
                         },
                         {
                             "actionBar": 8,
+                            "actionButton": 29,
+                            "actionsetting": {
+                                "useObject": 49271,
+                                "useType": "Use"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
                             "actionButton": 21,
                             "actionsetting": {
                                 "upgradeTier": 0,
                                 "useEquipSmartMode": false,
                                 "useObject": 50262,
                                 "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 8,
-                            "actionButton": 29,
-                            "actionsetting": {
-                                "useObject": 49271,
-                                "useType": "Use"
                             }
                         },
                         {
@@ -1712,6 +1712,16 @@
                         },
                         {
                             "actionBar": 7,
+                            "actionButton": 9,
+                            "actionsetting": {
+                                "upgradeTier": 0,
+                                "useEquipSmartMode": false,
+                                "useObject": 49533,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
                             "actionButton": 1,
                             "actionsetting": {
                                 "upgradeTier": 0,
@@ -1722,11 +1732,10 @@
                         },
                         {
                             "actionBar": 7,
-                            "actionButton": 9,
+                            "actionButton": 7,
                             "actionsetting": {
-                                "upgradeTier": 0,
-                                "useEquipSmartMode": false,
-                                "useObject": 49533,
+                                "useEquipSmartMode": true,
+                                "useObject": 30403,
                                 "useType": "Equip"
                             }
                         },
@@ -1742,15 +1751,6 @@
                         },
                         {
                             "actionBar": 7,
-                            "actionButton": 7,
-                            "actionsetting": {
-                                "useEquipSmartMode": true,
-                                "useObject": 30403,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
                             "actionButton": 8,
                             "actionsetting": {
                                 "upgradeTier": 0,
@@ -1761,21 +1761,21 @@
                         },
                         {
                             "actionBar": 7,
-                            "actionButton": 2,
-                            "actionsetting": {
-                                "upgradeTier": 0,
-                                "useEquipSmartMode": false,
-                                "useObject": 3399,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
                             "actionButton": 10,
                             "actionsetting": {
                                 "upgradeTier": 0,
                                 "useEquipSmartMode": false,
                                 "useObject": 34095,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 2,
+                            "actionsetting": {
+                                "upgradeTier": 0,
+                                "useEquipSmartMode": false,
+                                "useObject": 3399,
                                 "useType": "Equip"
                             }
                         },
@@ -1932,7 +1932,7 @@
                             "actionBar": 3,
                             "actionButton": 25,
                             "actionsetting": {
-                                "chatText": "/teleport 34068, 31416, 11",
+                                "chatText": "/teleport 34071, 31442, 11",
                                 "sendAutomatically": true
                             }
                         }
@@ -2894,20 +2894,20 @@
                         },
                         {
                             "actionBar": 9,
-                            "actionButton": 29,
-                            "actionsetting": {
-                                "useObject": 16277,
-                                "useType": "Use"
-                            }
-                        },
-                        {
-                            "actionBar": 9,
                             "actionButton": 5,
                             "actionsetting": {
                                 "upgradeTier": 0,
                                 "useEquipSmartMode": false,
                                 "useObject": 50291,
                                 "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 9,
+                            "actionButton": 29,
+                            "actionsetting": {
+                                "useObject": 16277,
+                                "useType": "Use"
                             }
                         },
                         {
@@ -3013,14 +3013,6 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 10,
-                            "actionsetting": {
-                                "chatText": "exani hur \"down\"",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
                             "actionButton": 2,
                             "actionsetting": {
                                 "useObject": 237,
@@ -3029,9 +3021,9 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 11,
+                            "actionButton": 10,
                             "actionsetting": {
-                                "chatText": "exani hur \"up\"",
+                                "chatText": "exani hur \"down\"",
                                 "sendAutomatically": true
                             }
                         },
@@ -3040,6 +3032,14 @@
                             "actionButton": 19,
                             "actionsetting": {
                                 "chatText": "exori amp pug",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 11,
+                            "actionsetting": {
+                                "chatText": "exani hur \"up\"",
                                 "sendAutomatically": true
                             }
                         },
@@ -3245,9 +3245,9 @@
                         },
                         {
                             "actionBar": 2,
-                            "actionButton": 50,
+                            "actionButton": 2,
                             "actionsetting": {
-                                "chatText": "utori vis",
+                                "chatText": "exura max vita",
                                 "sendAutomatically": true
                             }
                         },
@@ -3261,17 +3261,9 @@
                         },
                         {
                             "actionBar": 2,
-                            "actionButton": 2,
+                            "actionButton": 50,
                             "actionsetting": {
-                                "chatText": "exura max vita",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 2,
-                            "actionButton": 45,
-                            "actionsetting": {
-                                "chatText": "exori vis",
+                                "chatText": "utori vis",
                                 "sendAutomatically": true
                             }
                         },
@@ -3280,6 +3272,14 @@
                             "actionButton": 13,
                             "actionsetting": {
                                 "chatText": "utori mas sio",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 2,
+                            "actionButton": 45,
+                            "actionsetting": {
+                                "chatText": "exori vis",
                                 "sendAutomatically": true
                             }
                         },
@@ -3346,20 +3346,20 @@
                         },
                         {
                             "actionBar": 8,
-                            "actionButton": 15,
-                            "actionsetting": {
-                                "chatText": "void",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 8,
                             "actionButton": 7,
                             "actionsetting": {
                                 "upgradeTier": 0,
                                 "useEquipSmartMode": false,
                                 "useObject": 50250,
                                 "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 15,
+                            "actionsetting": {
+                                "chatText": "void",
+                                "sendAutomatically": true
                             }
                         },
                         {
@@ -3412,14 +3412,6 @@
                         },
                         {
                             "actionBar": 7,
-                            "actionButton": 17,
-                            "actionsetting": {
-                                "chatText": "yes",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 7,
                             "actionButton": 9,
                             "actionsetting": {
                                 "useEquipSmartMode": true,
@@ -3429,9 +3421,9 @@
                         },
                         {
                             "actionBar": 7,
-                            "actionButton": 15,
+                            "actionButton": 17,
                             "actionsetting": {
-                                "chatText": "strike",
+                                "chatText": "yes",
                                 "sendAutomatically": true
                             }
                         },
@@ -3447,9 +3439,25 @@
                         },
                         {
                             "actionBar": 7,
+                            "actionButton": 15,
+                            "actionsetting": {
+                                "chatText": "strike",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 7,
                             "actionButton": 14,
                             "actionsetting": {
                                 "chatText": "trade",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 16,
+                            "actionsetting": {
+                                "chatText": "powerful",
                                 "sendAutomatically": true
                             }
                         },
@@ -3461,14 +3469,6 @@
                                 "useEquipSmartMode": false,
                                 "useObject": 50158,
                                 "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 16,
-                            "actionsetting": {
-                                "chatText": "powerful",
-                                "sendAutomatically": true
                             }
                         },
                         {
@@ -4525,14 +4525,6 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 10,
-                            "actionsetting": {
-                                "chatText": "exani hur \"down\"",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
                             "actionButton": 2,
                             "actionsetting": {
                                 "useObject": 23374,
@@ -4541,9 +4533,9 @@
                         },
                         {
                             "actionBar": 1,
-                            "actionButton": 11,
+                            "actionButton": 10,
                             "actionsetting": {
-                                "chatText": "exani hur \"up\"",
+                                "chatText": "exani hur \"down\"",
                                 "sendAutomatically": true
                             }
                         },
@@ -4552,6 +4544,14 @@
                             "actionButton": 19,
                             "actionsetting": {
                                 "chatText": "exori amp pug",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 11,
+                            "actionsetting": {
+                                "chatText": "exani hur \"up\"",
                                 "sendAutomatically": true
                             }
                         },
@@ -4701,20 +4701,20 @@
                         },
                         {
                             "actionBar": 9,
-                            "actionButton": 29,
-                            "actionsetting": {
-                                "useObject": 16277,
-                                "useType": "Use"
-                            }
-                        },
-                        {
-                            "actionBar": 9,
                             "actionButton": 5,
                             "actionsetting": {
                                 "upgradeTier": 0,
                                 "useEquipSmartMode": false,
                                 "useObject": 50291,
                                 "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 9,
+                            "actionButton": 29,
+                            "actionsetting": {
+                                "useObject": 16277,
+                                "useType": "Use"
                             }
                         },
                         {
@@ -4857,20 +4857,20 @@
                         },
                         {
                             "actionBar": 8,
-                            "actionButton": 15,
-                            "actionsetting": {
-                                "chatText": "void",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 8,
                             "actionButton": 7,
                             "actionsetting": {
                                 "upgradeTier": 0,
                                 "useEquipSmartMode": false,
                                 "useObject": 50250,
                                 "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 15,
+                            "actionsetting": {
+                                "chatText": "void",
+                                "sendAutomatically": true
                             }
                         },
                         {
@@ -4923,14 +4923,6 @@
                         },
                         {
                             "actionBar": 7,
-                            "actionButton": 17,
-                            "actionsetting": {
-                                "chatText": "yes",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 7,
                             "actionButton": 9,
                             "actionsetting": {
                                 "useEquipSmartMode": true,
@@ -4940,9 +4932,9 @@
                         },
                         {
                             "actionBar": 7,
-                            "actionButton": 15,
+                            "actionButton": 17,
                             "actionsetting": {
-                                "chatText": "strike",
+                                "chatText": "yes",
                                 "sendAutomatically": true
                             }
                         },
@@ -4958,9 +4950,25 @@
                         },
                         {
                             "actionBar": 7,
+                            "actionButton": 15,
+                            "actionsetting": {
+                                "chatText": "strike",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 7,
                             "actionButton": 14,
                             "actionsetting": {
                                 "chatText": "trade",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 16,
+                            "actionsetting": {
+                                "chatText": "powerful",
                                 "sendAutomatically": true
                             }
                         },
@@ -4972,14 +4980,6 @@
                                 "useEquipSmartMode": false,
                                 "useObject": 50158,
                                 "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 16,
-                            "actionsetting": {
-                                "chatText": "powerful",
-                                "sendAutomatically": true
                             }
                         },
                         {
@@ -6019,7 +6019,7 @@
         "emergencyDialogVersion": 0,
         "frameRateLimit": 60,
         "frameRateLimitEnabled": false,
-        "gameWindowLowerPaneHeight": 441,
+        "gameWindowLowerPaneHeight": 48,
         "gameWindowResizingMode": 0,
         "gameWindowScaleOnlyByEvenMultiples": false,
         "gameWindowShowBoostedCreatureMessages": true,
@@ -6036,7 +6036,7 @@
         "gameWindowShowTargetHighlight": true,
         "gameWindowShowTextualEffects": true,
         "gameWindowShowTragetFrame": true,
-        "gameWindowUpperPaneHeight": 482,
+        "gameWindowUpperPaneHeight": 1119,
         "inspectPlayerAllowAllEnabled": false,
         "keyboardDelayMs": 250,
         "keyboardDelayUseDefault": true,
