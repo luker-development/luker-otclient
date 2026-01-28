@@ -1,7 +1,7 @@
 # Luker OTClient
 
-This repository contains the **public client** for the Luker OTServer (based on Tibia 15.03).  
-It is designed to work with the future **Luker Launcher**, which will handle automatic updates, patching, and changelog display.
+This repository contains the **public client** for the Argentibia OTServer (based on Tibia 15.03).  
+It is designed to work with the future **Argentibia Launcher**, which will handle automatic updates, patching, and changelog display.
 
 Everything here is safe for public distribution — no server credentials or internal Lua files are exposed.  
 Think of this as the *“downloadable game client”* repository.
@@ -23,7 +23,7 @@ If you (Future Luker) ever forget why this repo exists:
 
 ## 🧩 Launcher Integration Overview
 
-The **Luker Launcher** (to be developed next) will:
+The **Argentibia Launcher** (to be developed next) will:
 1. Fetch the latest version from  
    `https://raw.githubusercontent.com/luker-development/luker-otclient/main/updater/version.txt`
 2. Compare it to the local client version.
