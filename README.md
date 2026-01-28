@@ -1,4 +1,4 @@
-# Luker OTClient
+# Argentibia OTClient
 
 This repository contains the **public client** for the Argentibia OTServer (based on Tibia 15.03).  
 It is designed to work with the future **Argentibia Launcher**, which will handle automatic updates, patching, and changelog display.
@@ -82,7 +82,7 @@ This will:
 ## 🧰 Folder Structure (Explained for Future Luker)
 
 ```text
-luker-otclient/
+argentibia-otclient/
 │
 ├── bin/                  → The compiled client and dependencies (.exe, .dll)
 ├── data/                 → Game data, modules, maps, UI, etc.
@@ -159,7 +159,7 @@ setx GITHUB_TOKEN "ghp_yourtokenhere"
 ## 📜 License & Credits
 
 This repository is intended for **client distribution and update automation** only.  
-All game assets and content remain property of the **Luker OTServer** project.  
+All game assets and content remain property of the **Argentibia OTServer** project.  
 Created and maintained by **Luker (Luca Bigliano)**.
 
 ---
