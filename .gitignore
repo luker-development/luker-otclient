@@ -10,6 +10,7 @@
 *.7z
 *.tmp
 *.bak
+*.backup
 
 # Windows / OS metadata
 Thumbs.db
@@ -36,3 +37,12 @@ characterdata/
 *.ini
 *.dat.old
 *.spr.old
+
+# Claude
+.claude
+
+# Development debugging tools
+proxy.js
+proxy_capture.js
+capture_server.js
+proxy_prev.json

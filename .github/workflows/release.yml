@@ -1,0 +1,78 @@
+name: Create Release and Build Client
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: version
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Release version: $VERSION"
+
+      - name: Verify version.txt matches tag
+        run: |
+          REPO_VERSION=$(cat updater/version.txt | tr -d '[:space:]')
+          TAG_VERSION=${{ steps.version.outputs.version }}
+          if [ "$REPO_VERSION" != "$TAG_VERSION" ]; then
+            echo "ERROR: version.txt ($REPO_VERSION) does not match tag ($TAG_VERSION)"
+            exit 1
+          fi
+          echo "Version verified: $TAG_VERSION"
+
+      - name: Create client zip
+        run: |
+          zip -r luker-otclient-${{ steps.version.outputs.version }}.zip . \
+            -x "\.git/*" \
+            ".github/*" \
+            ".gitignore" \
+            "*.backup" \
+            "proxy.js" \
+            "proxy_capture.js" \
+            "capture_server.js" \
+            "proxy_prev.json" \
+            ".claude/*" \
+            "__pycache__/*" \
+            "*.log" \
+            ".vscode/*" \
+            ".idea/*" \
+            "screenshots/*" \
+            "minimap/*" \
+            "characterdata/*" \
+            "cache/*" \
+            "log/*" \
+            "crashdump/*" \
+            "data/minimap/*" \
+            "data/config/*" \
+            "data/configs/*" \
+            "data/logs/*" \
+            "data/screenshots/*"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref }}
+          name: Release v${{ steps.version.outputs.version }}
+          body: |
+            ## Version ${{ steps.version.outputs.version }}
+
+            **Changes:**
+            - See commits in this release for details
+
+            **Installation:**
+            - Download `luker-otclient-${{ steps.version.outputs.version }}.zip`
+            - Extract to your game directory
+            - Run the launcher to update
+          files: luker-otclient-${{ steps.version.outputs.version }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
