@@ -52,30 +52,35 @@ This allows you to publish new client updates in minutes — no manual uploads, 
 
 ## 🔁 Developer Workflow (How to Publish Updates)
 
-If you’re releasing a new build, follow this **every time**:
+If you're releasing a new build, follow this **simple 3-step process**:
 
-### 1️⃣ Bump version and regenerate manifest
+### 1️⃣ Update the version file
+Edit `updater/version.txt` with your new version:
 ```bash
-python generate_manifest.py --bump
+echo "1.0.2" > updater/version.txt
 ```
-This will:
-- Read the current version from `updater/version.txt`
-- Bump the patch version (`1.0.0 → 1.0.1`)
-- Recalculate file hashes
-- Update `updater/manifest.json`
-- Generate a ZIP containing only changed files inside `updater/builds/`
 
-### 2️⃣ Publish release automatically
+### 2️⃣ Commit and push to main
 ```bash
-python generate_manifest.py --bump minor --release
+git add updater/version.txt
+git commit -m "Release version 1.0.2"
+git push origin main
 ```
-This will:
-- Do everything above
-- Then use your `GITHUB_TOKEN` to create a **GitHub Release**
-- Attach the `.zip` build as an asset for launcher or players
 
-> 🔐 Note: Only your local environment variable `GITHUB_TOKEN` allows uploads.  
-> If someone else clones this repo, the script still works locally but won’t upload.
+### 3️⃣ Create a git tag and push it
+```bash
+git tag v1.0.2
+git push origin v1.0.2
+```
+
+**That's it!** GitHub Actions will automatically:
+- ✅ Verify version.txt matches the tag
+- ✅ Create a ZIP of the client (excluding screenshots, cache, logs, debug files)
+- ✅ Create a GitHub release with the ZIP attached
+- ✅ Launcher detects the new version and prompts users to update
+
+> 📝 **Version Format:** Use semantic versioning (major.minor.patch) for both `version.txt` and git tags.
+> Example: `1.0.2` in version.txt → `git tag v1.0.2`
 
 ---
 
@@ -104,32 +109,30 @@ argentibia-otclient/
 
 ---
 
-## 🔍 Script Reference – `generate_manifest.py`
+## 🔍 GitHub Actions Automation
 
-### 🧠 What it does
-- Reads your current version.
-- Bumps it (patch/minor/major or specific).
-- Rehashes all client files.
-- Updates `manifest.json` automatically.
-- Generates a ZIP of changed files.
-- Optionally uploads the release to GitHub.
+The `.github/workflows/release.yml` file automatically handles releases when you push a git tag.
 
-### 💡 Examples
+**What it does:**
+- ✅ Verifies `version.txt` matches the tag
+- ✅ Creates a ZIP archive (excludes screenshots, cache, logs, debug files)
+- ✅ Creates a GitHub Release with the ZIP attached
+- ✅ Launcher automatically detects and prompts users to update
+
+No manual uploads, no scripts needed. Just push a tag and the workflow handles the rest.
+
+---
+
+## 🔧 Legacy: Script Reference – `generate_manifest.py`
+
+This script is available but **no longer the primary workflow**. It was used for differential updates but is now replaced by GitHub Actions.
+
+If you need to regenerate the manifest manually:
 ```bash
 python generate_manifest.py                # Only regenerate manifest
-python generate_manifest.py --bump         # Bump patch (e.g., 1.0.0 → 1.0.1)
-python generate_manifest.py --bump minor   # Bump minor version (1.0.0 → 1.1.0)
-python generate_manifest.py --bump major   # Bump major version (1.0.0 → 2.0.0)
-python generate_manifest.py --bump 1.3.5   # Set version manually
-python generate_manifest.py --bump --release  # Full automated release
 ```
 
-### 🔑 GitHub setup
-You must have a personal token set locally:
-
-```bash
-setx GITHUB_TOKEN "ghp_yourtokenhere"
-```
+> **Note:** The git tag workflow above is recommended for all releases.
 
 ---
 
