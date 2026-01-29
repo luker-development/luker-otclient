@@ -82,7 +82,7 @@ git push origin v1.0.2
 > 📝 **Version Format:** Use semantic versioning (major.minor.patch) for both `version.txt` and git tags.
 > Example: `1.0.2` in version.txt → `git tag v1.0.2`
 
----
+---4
 
 ## 🧰 Folder Structure (Explained for Future Luker)
 
