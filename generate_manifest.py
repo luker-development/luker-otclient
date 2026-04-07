@@ -7,7 +7,7 @@ import requests
 from pathlib import Path
 
 # === CONFIGURATION ===
-INCLUDE_DIRS = ["bin", "data", "assets", "conf", "storeimages"]
+INCLUDE_DIRS = ["bin", "data", "assets", "storeimages"]
 EXCLUDE = {"minimap", "screenshots", "logs", ".git", "updater", "__pycache__"}
 
 MANIFEST_PATH = Path("updater/manifest.json")

@@ -29172,14 +29172,6 @@
     {
       "path": "bin/translations/qtwebengine_locales/en-US.pak",
       "hash": "193ec06eb00cc6235c3f993ac895a12c149fac47"
-    },
-    {
-      "path": "conf/clientoptions.json",
-      "hash": "a684a30dcaa815e4752fed7b2e0d09c3b41bca5a"
-    },
-    {
-      "path": "conf/gpublacklist.json",
-      "hash": "f85f8a08cec2ddec31e978eb43d869e3f6867230"
     }
   ]
 }
