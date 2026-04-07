@@ -12,10 +12,10 @@
     "clientWindowOptions": {
         "clientWindowHeight": 650,
         "clientWindowIsBorderless": false,
-        "clientWindowIsMaximized": true,
-        "clientWindowPositionX": -207,
-        "clientWindowPositionY": 240,
-        "clientWindowScreenName": "HORIZON Z21",
+        "clientWindowIsMaximized": false,
+        "clientWindowPositionX": 106,
+        "clientWindowPositionY": 147,
+        "clientWindowScreenName": "HDTV",
         "clientWindowWidth": 1020
     },
     "controlButtonsOptions": {

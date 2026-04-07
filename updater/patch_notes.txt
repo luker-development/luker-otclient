@@ -1,4 +1,7 @@
-Luker OTClient - Patch 1.0.1
------------------------------
-- Pointed login/client web services to http://216.238.98.55/login.php
-- Updated manifest hashes and version file for launcher compatibility
+Luker OTClient - Version 1.1.0
+-------------------------------
+- Protocol upgrade to Tibia 15.11 (from 15.03)
+- Updated game assets: new item database, sprites, map data
+- Added proficiencies system support for character perks
+- Updated sounds and UI resources
+- Server-side update required — ensure you are connecting to the updated server
