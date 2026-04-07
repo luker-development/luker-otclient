@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "files": [
     {
       "path": "assets/appearances-5997985a63a3e937581971c125efd546c0dfd0623341744ea8fa481c7fc9a560.dat",
@@ -1326,6 +1326,10 @@
       "hash": "3fbd09373b21c82c34bde284bf88bfc8a6a875a6"
     },
     {
+      "path": "assets/satellite-16-1004-0992-07-9b8e67e355a254a17e8c22b713d0cc9670436679aa62eee4df1b9cec11830c45.bmp.lzma",
+      "hash": "2117356dd50003d2f70c53f2629f81b933e3e82d"
+    },
+    {
       "path": "assets/satellite-16-1004-0992-07-ae8b3fe8e4d102c28131d0e49259272b97d96b2ab0325d5437ec4648fdd879f6.bmp.lzma",
       "hash": "01ebd039d2cb86072eccc445561f45ff30be20ff"
     },
@@ -1356,6 +1360,10 @@
     {
       "path": "assets/satellite-16-1004-1000-06-c9af06fc7e9654984b2dfe187ab1128b52d9fe2a5f1a591306697ed228f7a328.bmp.lzma",
       "hash": "63dec1bd258da6b84ea8a9706f1a511c6e2e7b64"
+    },
+    {
+      "path": "assets/satellite-16-1004-1000-07-69361e909b40471c2575f701064b01dc8f99101659dcb053eff8e13d308a80a9.bmp.lzma",
+      "hash": "9e5d3527de5b5a4e47bf77d8a47bec03bf834fd2"
     },
     {
       "path": "assets/satellite-16-1004-1000-07-82ba68db992d0c6691b97d92167b1171cf7d8eb57074e8f1915cb0d7ccfe605a.bmp.lzma",
@@ -1450,8 +1458,16 @@
       "hash": "87ac890be6bdf16424cd324d8acb6ebfdd204305"
     },
     {
+      "path": "assets/satellite-16-1004-1024-05-e0ca84cb2a4d4be8ac0e0414ff7d6f5286d53ff2b34dd7435a66ba57946a18ad.bmp.lzma",
+      "hash": "1f7e310cbd162fc7454a210fd72fffa4fa9460bf"
+    },
+    {
       "path": "assets/satellite-16-1004-1024-06-998c17562ada76fd03caf03bc4ebbc4f1091393c23195dc146d84450a349e2ed.bmp.lzma",
       "hash": "2c718bb6ff3e7d73d4d86b85fb658bd5edc1c7cc"
+    },
+    {
+      "path": "assets/satellite-16-1004-1024-06-adb7c78d4b6f501cc2ad8e850618f08f232413a616916f8964a20b7f64e9b2de.bmp.lzma",
+      "hash": "700333c05c0d39aae7350f9e8b1c7afdffa02b10"
     },
     {
       "path": "assets/satellite-16-1004-1024-07-9097caf70fcd2fdf3f84e3645588487328d68a13c7f684d6c510700e21259105.bmp.lzma",
@@ -1490,6 +1506,10 @@
       "hash": "5d375f8ef4761451caa117b6e796f5e6b377af90"
     },
     {
+      "path": "assets/satellite-16-1012-0976-05-3389aa12eebe9fdaa90e3072ff1eefef108e1de934cd25ff1c21929d950673b4.bmp.lzma",
+      "hash": "e30d046612ba2832df319e12e20d0ea5727ab72b"
+    },
+    {
       "path": "assets/satellite-16-1012-0976-05-4b69f9b57b48f06eb9ad799afbf0226c19fb0d36c869e8bbf1b0863ec370e90b.bmp.lzma",
       "hash": "a3404a70dee0280c7e177f568f0860e02ecd218f"
     },
@@ -1522,12 +1542,24 @@
       "hash": "594d6716332b05823a45615b3684cfd9ed5eafad"
     },
     {
+      "path": "assets/satellite-16-1012-0984-05-33d7fc876e50c781177462c6d2c5faa7d44dbc08b3d9a8107ec36f95c2b1c847.bmp.lzma",
+      "hash": "2821ec4b650972bf8d44f0d22c056aeaf02b5705"
+    },
+    {
       "path": "assets/satellite-16-1012-0984-05-c468ba8d11a5f65f6cc6a40a383fcedf69d1d1d8af46a677d38094c484b19258.bmp.lzma",
       "hash": "83c46c1f453fe5ee7a7638264191d32b05903df8"
     },
     {
       "path": "assets/satellite-16-1012-0984-06-7db74ee6175bd064c16bda3c03649e227a1ca20900ae88926072e348fa90a1a1.bmp.lzma",
       "hash": "4f84a6cc71203522ee5bcacae41d8118db3a59ac"
+    },
+    {
+      "path": "assets/satellite-16-1012-0984-06-b120a9d14e9b23eb2c005684cc5640555ab72db9d0794cafc71c1b3ba0bf4c04.bmp.lzma",
+      "hash": "e37c49f9f1b2920e223e3a1c1952a739dd6125bc"
+    },
+    {
+      "path": "assets/satellite-16-1012-0984-07-30f7e92af0c2a30e1818c45f2e22ea5991eb285d1c0e4f5deff0da7f1842c4d4.bmp.lzma",
+      "hash": "44d033e632722c7a907c385741d4a1b64350e167"
     },
     {
       "path": "assets/satellite-16-1012-0984-07-79d6dc96127ce25378225f885b4492c4134e3550584bf45c45039dfa74ed9040.bmp.lzma",
@@ -1558,12 +1590,24 @@
       "hash": "69108bb2378c86762c8603af754f353d1c1a423f"
     },
     {
+      "path": "assets/satellite-16-1012-0992-05-bcc2f36b3f13fddee078c7c6a259b40271719eb14e8401fc3bb10b3b99d46e71.bmp.lzma",
+      "hash": "0383381cbc804d458ed802d91995bac1a6bd354b"
+    },
+    {
       "path": "assets/satellite-16-1012-0992-06-23bbf31080c89e0d40f398f4fedfd1a38e74c19b057654c506ee004e69cd3fbd.bmp.lzma",
       "hash": "100f73af1d3bf9f6f2b442dff069af8efc930e25"
     },
     {
+      "path": "assets/satellite-16-1012-0992-06-4e2e46f8164d06500dd37da877b31e603d9171a326f64ed7014c551e5373829e.bmp.lzma",
+      "hash": "de847baf893f5fbe7e16eed664bde00b9ba78178"
+    },
+    {
       "path": "assets/satellite-16-1012-0992-07-0a238b3e0501ee9727df82be589c3f21b7f4e723345763fad76d5f2b416ee68f.bmp.lzma",
       "hash": "7b49cf4fc01b4ee9cacfc8ec3effc336af13292b"
+    },
+    {
+      "path": "assets/satellite-16-1012-0992-07-16ffd076499e6c32d591dee74f918c325491930bd662396316e870c79923ca21.bmp.lzma",
+      "hash": "4b2fff0250ab27a55f98479bf10415217de64976"
     },
     {
       "path": "assets/satellite-16-1012-1000-01-82d331e70a86fd15d455ecc7071707d6182c5c630e71c6d5355bec332ba14167.bmp.lzma",
@@ -1620,6 +1664,10 @@
     {
       "path": "assets/satellite-16-1012-1008-06-d5063353d6fc3e6f3b6a355ad9333def73911b2705324eee7423d503ed72d08b.bmp.lzma",
       "hash": "e385c46ff14aec3ff184be2e0532ac360cf1ce4e"
+    },
+    {
+      "path": "assets/satellite-16-1012-1008-07-62a5766413ae8f1abd3780c2a9fbaee0a62d8b2707908decfbf686311a56f6c7.bmp.lzma",
+      "hash": "6bc732f497b0b3d03faa9f43ee0bdf32993d44ad"
     },
     {
       "path": "assets/satellite-16-1012-1008-07-f2ca377c40dc12a709c9e078719f1a1066ed5752c758b223c2efe8ece7b418cd.bmp.lzma",
@@ -1706,6 +1754,10 @@
       "hash": "44a9aaad39a5e2c309b7949919a7c1b6a1694c38"
     },
     {
+      "path": "assets/satellite-16-1020-0968-04-4a2d52eef9abbe072a9ece1d4fb84840708c627110516ec803b212cc840caa3a.bmp.lzma",
+      "hash": "c449a6623bdff27ff9738cfb712b9e559e2ea461"
+    },
+    {
       "path": "assets/satellite-16-1020-0968-04-87b28be61db342cadd3fb32919a3fcfb7915b8065edcdb93ddb765eb2b0bbc25.bmp.lzma",
       "hash": "e0fab3d0178f6d38447d5fc55f9c8fc7897ece3b"
     },
@@ -1714,8 +1766,16 @@
       "hash": "44307985d5e3c9ac4f1132934fbea2d79a3c5c76"
     },
     {
+      "path": "assets/satellite-16-1020-0968-05-d6303e84f0f511e9d108b77b62fb277e68fe8814fef9efc7187f0708b1987e65.bmp.lzma",
+      "hash": "3ed98288707746542549b635603b34ad2be6815b"
+    },
+    {
       "path": "assets/satellite-16-1020-0968-06-15621d0efa3c0f714e8b0f40edc5b0118b14f1ae60fd0d4cf6f5692d3ceea02f.bmp.lzma",
       "hash": "6b5220a1408d19c998040b1b8bbe8e283d0d43e5"
+    },
+    {
+      "path": "assets/satellite-16-1020-0968-06-3162f05d902b31cce7e5ac876e2322ad2371b040a0f381477362fdcccf46d82c.bmp.lzma",
+      "hash": "9508e2a7360dec477bbca1b24b32e188b3ac213f"
     },
     {
       "path": "assets/satellite-16-1020-0968-07-2ba03ca3a6ee030bf3714606a6ba1280d1f779af9484b9bd807d0921d77ae9bb.bmp.lzma",
@@ -1748,6 +1808,14 @@
     {
       "path": "assets/satellite-16-1020-0976-06-73732b9cbbd2119f0825c5670586fcce72c5933342f233f7bb116dee7bc7a4db.bmp.lzma",
       "hash": "998cd6d57093e89fadc1c65e46e210380e48f0b0"
+    },
+    {
+      "path": "assets/satellite-16-1020-0976-06-ff6139ce445d45ae93c9c8a5ca90be12b1bb9852e1346add09277fd1085c454d.bmp.lzma",
+      "hash": "3071b0a27cf1f58ee8d70ce9163d045918a988bc"
+    },
+    {
+      "path": "assets/satellite-16-1020-0976-07-2826c356eeb05a5d0bf21b575255932cf7b0e2827d822ba17ec57915128ae1bc.bmp.lzma",
+      "hash": "81bbb4845c4b5c7c0c3b0a66ca36f5af05afde81"
     },
     {
       "path": "assets/satellite-16-1020-0976-07-39933d72794978f9d7a42462f4dcca701e45eb65ac8476e7c4865fdc43d89627.bmp.lzma",
@@ -1954,8 +2022,20 @@
       "hash": "743350d0f375f3863ca8e65ef3e520e8fd9e3c16"
     },
     {
+      "path": "assets/satellite-16-1028-0976-00-5289bba9db3d711669d71a452b796d8cb4a21918fc344e9df488619012034a2a.bmp.lzma",
+      "hash": "45cf245012b5a3147cf302b99a5164e03e1b95ef"
+    },
+    {
       "path": "assets/satellite-16-1028-0976-01-dea50c7481266d709ad4438cdf1a54623e937f8c89f936dc15670d3fec46b9a6.bmp.lzma",
       "hash": "624cd7777fa8df830a457c1ba61362eaee4a35fa"
+    },
+    {
+      "path": "assets/satellite-16-1028-0976-01-ed5056f40c07503f1baa290c1aab9a111c4ca675182bb2f81784c732377e6c3f.bmp.lzma",
+      "hash": "3f896dfa80a5454ef86474ec72dec352547161d2"
+    },
+    {
+      "path": "assets/satellite-16-1028-0976-02-a90e891ff81f8737252ac8250f69169b802a38911838d3f701fc9d90d1045d73.bmp.lzma",
+      "hash": "977c706a1d966305b8ef17685fed49f0241ef001"
     },
     {
       "path": "assets/satellite-16-1028-0976-02-df715fa52825b5e10a4053640c1de93eba5c06dde192ea27a02b876951908cfb.bmp.lzma",
@@ -1966,8 +2046,20 @@
       "hash": "aaa0f3fa72177df5fdfa6733771e74847f8d68cc"
     },
     {
+      "path": "assets/satellite-16-1028-0976-03-5bb66aa5b2e4f03dcf4fb306c0811bc050ab90dd7190ef8c1266f553b3a0c16c.bmp.lzma",
+      "hash": "05173fd01f337fffd010276808b049f0d6f1b094"
+    },
+    {
       "path": "assets/satellite-16-1028-0976-04-38869380ab3de35e3e65ebde565d5ff35b86f900ad0cc67ceb9f7a8df89fd784.bmp.lzma",
       "hash": "b0ffbb75c13a0fb84a2227d2d89c4650d8e491dd"
+    },
+    {
+      "path": "assets/satellite-16-1028-0976-04-856d9abeefaa77b36a6c10760bb738cced1fb0c25f8f57708bab06f32cf73ba4.bmp.lzma",
+      "hash": "aeca7139fff65d6b351c175087bcc8dd18fd1bf0"
+    },
+    {
+      "path": "assets/satellite-16-1028-0976-05-28efed4985428d6731fa7f942bba3b9439a801de5469220db279084713647e4e.bmp.lzma",
+      "hash": "e7b70d02dc6cfba61b50b0d3d357a0dd17e1b5cc"
     },
     {
       "path": "assets/satellite-16-1028-0976-05-4672fdddd26d6d06ffe7d9da08b4569c3a48014681b11232b00d08a061f60121.bmp.lzma",
@@ -1976,6 +2068,14 @@
     {
       "path": "assets/satellite-16-1028-0976-06-7bd7c6bc96253afc66f27d9102d97f27e5873c40ee9691de7ae5776fd799887d.bmp.lzma",
       "hash": "33dbdf96c78d981fee07b213df8fc8403076c910"
+    },
+    {
+      "path": "assets/satellite-16-1028-0976-06-833b7938330462c1827fa9f0f2b76faa6387aedc7e50a0a949b2e110520e3989.bmp.lzma",
+      "hash": "33405c1013f9d3823e0dd911dba7859c032e3c14"
+    },
+    {
+      "path": "assets/satellite-16-1028-0976-07-1f8abcd98b35cdbdad3cd3d19291f85257c06f65ac040716026b5e8e6c2b8228.bmp.lzma",
+      "hash": "a8e3bf45a45c57ec2d7d6bf53e44b348a2aa5221"
     },
     {
       "path": "assets/satellite-16-1028-0976-07-e9cc7d4e0e84c7fe9e2f42c0e52e0cb3d5db69c0cbf9696035fd2c761fd1f68a.bmp.lzma",
@@ -2046,6 +2146,10 @@
       "hash": "33f70cc58a7b2c46c082df97aac2cf93c5cfc6ad"
     },
     {
+      "path": "assets/satellite-16-1028-1000-03-5d1c28664c9f5c7e594df9fd7a98ad8f1106acf775d3a591d50069a6e220efa8.bmp.lzma",
+      "hash": "216e966f3d89b5e89f25dfbc4456347e8492fc07"
+    },
+    {
       "path": "assets/satellite-16-1028-1000-03-c34df18c27d5d2ca4cb42213760b8b0e9b11deccf02f3845bd1f6ae697c824cc.bmp.lzma",
       "hash": "501504f8158f53fe2b0ff9777efeada2329c3f2c"
     },
@@ -2054,12 +2158,24 @@
       "hash": "8a6790c743b4de5190164258edcefe204af4884d"
     },
     {
+      "path": "assets/satellite-16-1028-1000-04-d0fb954ab07a75a940ef72a95a5b19db90e6297a6616e448e8da42a06c9041d1.bmp.lzma",
+      "hash": "cfb2cb3ccafcd23ed4d7d1d92ad00aa3cb94df6c"
+    },
+    {
+      "path": "assets/satellite-16-1028-1000-05-c29c37a883eec6ebe702ea4e83f36c7bb3c9cf004f716ffb3eaa69f85246add5.bmp.lzma",
+      "hash": "fac88e81869c30e471c491b36633600092688be3"
+    },
+    {
       "path": "assets/satellite-16-1028-1000-05-d705f1393134f036dbb685f23b4a6ea6a42c96e7060810e306299438737ca53f.bmp.lzma",
       "hash": "05e9931459bc2e027acaae43735981ace84fe8fe"
     },
     {
       "path": "assets/satellite-16-1028-1000-06-050c780e6959926ecdb8dada8d825ab8c6fef9985107ceab29fd3017b29b25e7.bmp.lzma",
       "hash": "c595e3ee0eaa07502e68c7836a8ad4b34b1d5a33"
+    },
+    {
+      "path": "assets/satellite-16-1028-1000-06-a7dd24253de44d885f8d8b8fd01f0024d2d2432d0b613c256739dc827a545c25.bmp.lzma",
+      "hash": "efc205ba4c771a6c9f6aa6caa4e8a94aa43e11ee"
     },
     {
       "path": "assets/satellite-16-1028-1000-07-aae6fd88b278100914c0966af7dd26e6cb0324c24fcfb16945e3fc874a6d548d.bmp.lzma",
@@ -2156,6 +2272,10 @@
     {
       "path": "assets/satellite-16-1028-1024-06-20786cedffc2ef376785caa30b9ac5db48616f05700acda6f7708d337a257735.bmp.lzma",
       "hash": "829159c3010aaf6ff5bc91399617342c41f106e3"
+    },
+    {
+      "path": "assets/satellite-16-1028-1024-07-268a68bde4ff36c1b060975bfe88c32214a75bee1c741547cfe1580237c734a5.bmp.lzma",
+      "hash": "cf0d47ff3466eb0250ed765c6cf9d166db2d2595"
     },
     {
       "path": "assets/satellite-16-1028-1024-07-e7f32454b5b7d9ec514a52f06dfeb66e2c08aacc1eff0f8a1636f255a5df3117.bmp.lzma",
@@ -2274,8 +2394,16 @@
       "hash": "b9dc238686bc2b5fd9882993075012de6b21ab92"
     },
     {
+      "path": "assets/satellite-16-1036-0992-03-7ecb33d1b0c70110ff18f6f335c3fb6cf7e3a3eded9c0313be0edb44cf82a406.bmp.lzma",
+      "hash": "aa59c0817b2953064a5ed95bf400c0de0c0e81d0"
+    },
+    {
       "path": "assets/satellite-16-1036-0992-04-82ca04451d56690f2a90f7079c5bb4cb931581ad10023330c30c44d9cdb9eaad.bmp.lzma",
       "hash": "53f07154427f73affc4669ed499c53f2172bf81e"
+    },
+    {
+      "path": "assets/satellite-16-1036-0992-05-44e6afaba2b5cea09183837d29069e05bdc1d442c910359d6ed0bfc478824533.bmp.lzma",
+      "hash": "37126d71306d6c209dc60e8441d40d19de95f962"
     },
     {
       "path": "assets/satellite-16-1036-0992-05-5e056930774c26191e501beb911d0d8c2949e2a91d5d13f8943f1d8b8380fee6.bmp.lzma",
@@ -2284,6 +2412,10 @@
     {
       "path": "assets/satellite-16-1036-0992-06-a62c17189c57180cd6e8457601a14f3993f6c4b9b53fff7f2e4ab788d80b148f.bmp.lzma",
       "hash": "0ab8bd628dae1282b53c31c1bf90736ef2c44694"
+    },
+    {
+      "path": "assets/satellite-16-1036-0992-07-0554be8bd7e4c000220cb616c8ddf3a905259bdb173ef2e9e8f2b38dcbdf3322.bmp.lzma",
+      "hash": "25617779135df30e540c735b09318ff7a32c963d"
     },
     {
       "path": "assets/satellite-16-1036-0992-07-831c987acf79320df589b4c19a4dcd70cf02ef04fdc65e1b68008feba01edde4.bmp.lzma",
@@ -2398,6 +2530,10 @@
       "hash": "39047a4ff08144d5f5e187988a315b03ae75ac94"
     },
     {
+      "path": "assets/satellite-16-1036-1024-07-4e5d14193dd125df1967f83325b1ff9fb3dc49db1ec1ad458f1e2d30ffbbcb63.bmp.lzma",
+      "hash": "6572cc3cb3d12bbf33bd05d8b1d63f0cb751833c"
+    },
+    {
       "path": "assets/satellite-16-1036-1024-07-a892c58aad0488edc544f139ba99a80690fffcca6dc52d8b0c997519532e0f59.bmp.lzma",
       "hash": "89f6d952f81d49198ef5161b8e669200fafa7a0a"
     },
@@ -2446,6 +2582,10 @@
       "hash": "fd2dea34bc41ec9d214ffbafcf51f5d72de1853d"
     },
     {
+      "path": "assets/satellite-16-1044-0976-03-50509ae545ae362afcb139d1436705e02ffbc3257ee5b5d76c4e925711ca14a1.bmp.lzma",
+      "hash": "90d536a313e667f4e634c19f1fd0de939a20b3b3"
+    },
+    {
       "path": "assets/satellite-16-1044-0976-03-c6eef163714a388b37074433954223a5690f61d68daf011df8cedd5d3cb1f0b4.bmp.lzma",
       "hash": "487ab5a82a796470b344932dc727f81cbb3ddc7f"
     },
@@ -2454,8 +2594,20 @@
       "hash": "ed9dc4dd4442649190c59a7f52779155cbd064ac"
     },
     {
+      "path": "assets/satellite-16-1044-0976-04-3b3f2f01db1011bbe7128d2d3f18d917ec4c681cb520c16bb29bf13390d20bac.bmp.lzma",
+      "hash": "d15bb69f083f186c5daae9b9e0197c220ad2ac1e"
+    },
+    {
       "path": "assets/satellite-16-1044-0976-05-0ddfb0a499acdda2458395799d5dce5df4b8d5815c68387b42139664133fcde4.bmp.lzma",
       "hash": "395fcee0b610035b2062d7c64e2f8fd771e4492f"
+    },
+    {
+      "path": "assets/satellite-16-1044-0976-05-daf8323c9de398d24e12a12c9e54e7c010f303c969855ccf368137e50f49ab9b.bmp.lzma",
+      "hash": "8dc57e52020819feb2c484776072af76509e0d04"
+    },
+    {
+      "path": "assets/satellite-16-1044-0976-06-73aa1711ccd8c38bfcd949c574e088d6a770523e895b964f5b2b672b3c49e8e4.bmp.lzma",
+      "hash": "7ca00bebd53177f00febe8a50fba7f98db9a4085"
     },
     {
       "path": "assets/satellite-16-1044-0976-06-790574f1758e7dafe796abc82af5b6152cc7606036658e638c469a135ea119c5.bmp.lzma",
@@ -2464,6 +2616,10 @@
     {
       "path": "assets/satellite-16-1044-0976-07-8741f411c55d761f498a71356934cfd09e3bf4afbdcb450073b742a33d0da3d8.bmp.lzma",
       "hash": "ff4b02ab523f43dd9d95d69f0698a97fc3fe94b3"
+    },
+    {
+      "path": "assets/satellite-16-1044-0976-07-acb7fae66e6f39c95b64e0c6b9ac6b0726ed1b6ca077c9a69985014ad7b747c9.bmp.lzma",
+      "hash": "5556717b55fe1abe1e278c959e8dd155cf5e35ae"
     },
     {
       "path": "assets/satellite-16-1044-0984-01-fba1053c203c7e952bff556bc1be862af0224c2db1c553481d87c8fe5f0bb8c3.bmp.lzma",
@@ -2488,6 +2644,14 @@
     {
       "path": "assets/satellite-16-1044-0984-06-2c609d71b12999b861eba028bc8047b21dc8dc876716841bbba536f19052e296.bmp.lzma",
       "hash": "fed01695eaf9768c17d2ee4ceaf7d7b0fe339a03"
+    },
+    {
+      "path": "assets/satellite-16-1044-0984-06-ec9a175db4c0f8b742936e384f4b457140b897d4e67ce58b951e005b15dcc21b.bmp.lzma",
+      "hash": "107544d0d32bd14c29b63e9dbb056405577c57fb"
+    },
+    {
+      "path": "assets/satellite-16-1044-0984-07-65f2de20e233c0a430afe35c376ffe6c2215f55abe9d87533c83374226c33be8.bmp.lzma",
+      "hash": "a16a0761b54257df7c9e31c545d7db1762aa414a"
     },
     {
       "path": "assets/satellite-16-1044-0984-07-9e3dd5edb5d88cd80dfd9df47a18caf454686615985d2c3981ce0db0889e3426.bmp.lzma",
@@ -2552,6 +2716,10 @@
     {
       "path": "assets/satellite-16-1044-1000-07-b6d67e7dfb86a1ffefd4d57da6338c51e4d49ff2309b873620c9fdf51b5be1ad.bmp.lzma",
       "hash": "28417efe24f2ca0e133fee3695adbdb4dc054095"
+    },
+    {
+      "path": "assets/satellite-16-1044-1000-07-f1c138b0afc1c07987e644affecc4ac02d2a2469810c89277d377bcf234e0da7.bmp.lzma",
+      "hash": "602addfd6ec4c8366d34efc4fde5742097671f4c"
     },
     {
       "path": "assets/satellite-16-1044-1008-00-ef7dbaf4580f18bac2a57520003d2686d64289750222494ef33fa864f63b4db7.bmp.lzma",
@@ -2792,6 +2960,10 @@
     {
       "path": "assets/satellite-16-1052-1008-06-104eb473f8c8d530c65287b2c4a351b0248f4cd3b37281b031df27cbdd980132.bmp.lzma",
       "hash": "0788a3c59cf7588f9bc504c839724c5146e607b4"
+    },
+    {
+      "path": "assets/satellite-16-1052-1008-07-26d3c2bbd3c00e2c0ceb5862d766e16e1cf8f8ee56a51a663fa1af4d55d39cfd.bmp.lzma",
+      "hash": "b8668f9a4ac0640c3dc24abef61404e8f7f4ee0b"
     },
     {
       "path": "assets/satellite-16-1052-1008-07-dc450572b525c439a80998d01274196220fe5ad5085f524a533b58cbce9960da.bmp.lzma",
@@ -22946,6 +23118,10 @@
       "hash": "3e5874a48fb3dc3319ca9f7d316bc379c4230afa"
     },
     {
+      "path": "assets/subarea-0125-783b42dac36957e379b62312b6b310ef3e615247a95d0d535fb8bb58363fd99a.bmp.lzma",
+      "hash": "ab02b8d37f438e0d81079305c4192a74c1ba6774"
+    },
+    {
       "path": "assets/subarea-0125-ebd11539af0b669f689a4c83817bdd2953681f2739081b9e5f28d8871800ccd3.bmp.lzma",
       "hash": "62c8e8213c02862e1411af7262c945184afbaa52"
     },
@@ -23456,6 +23632,10 @@
     {
       "path": "assets/subarea-0507-cd580f6922a11855b5c28292f5a9181291f8e51767b4cb95a0a5b81e25079b83.bmp.lzma",
       "hash": "a66a7141264100484a39542a2369932ae794eafb"
+    },
+    {
+      "path": "assets/subarea-0511-b3abd8a0554fb1a8f83ccf9e2beaf8218aeced08c6029ae75eaddcae557a183a.bmp.lzma",
+      "hash": "ae3eeaf10b0df5b1e3f01eadf6b5c57697b6b6e4"
     },
     {
       "path": "bin/BattlEye/BEClient.cfg",

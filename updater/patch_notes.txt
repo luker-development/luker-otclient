@@ -1,7 +1,7 @@
-Luker OTClient - Version 1.1.0
+Luker OTClient - Version 1.1.1
 -------------------------------
-- Protocol upgrade to Tibia 15.11 (from 15.03)
-- Updated game assets: new item database, sprites, map data
-- Added proficiencies system support for character perks
-- Updated sounds and UI resources
-- Server-side update required — ensure you are connecting to the updated server
+- Fixed: Asset manifest no longer includes user config files
+- Fixed: Added missing satellite and subarea map tiles
+- Fixed: Updated sounds data to Tibia 15.11
+- Protocol: Tibia 15.11 (requires coordinated server deployment)
+- Note: First startup may show cache update dialogs while server handles new requests
